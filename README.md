@@ -1,4 +1,4 @@
-# LuzViMinda
+# LuzViMinda Quest
 
 A gamified learning platform for Philippine history and culture: a 2D educational game for Android, made as a capstone project.
 
