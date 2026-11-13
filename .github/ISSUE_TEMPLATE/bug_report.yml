@@ -1,0 +1,56 @@
+name: Bug report
+description: Something in the game is not working right
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for testing LuzViMinda Quest! Please do not write your full name or other personal details here.
+        Found a security problem? Do not post it here; see SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: Game version
+      description: Shown in small text at the bottom right of the main menu.
+      placeholder: v0.6.4
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - Android phone
+        - Windows PC
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Phone model or PC, and Android / Windows version
+      placeholder: "iQOO Z9, Android 16"
+  - type: input
+    id: place
+    attributes:
+      label: Where in the game?
+      placeholder: "Zone 2 Vigan, talking to the weaver"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we make it happen again?
+      placeholder: |
+        1. ...
+        2. ...
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot or video
+      description: Drag a picture or video here if you have one.
