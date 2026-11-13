@@ -3,7 +3,7 @@
 A 2D educational game about Philippine history and culture, for **Android phones** and **Windows PCs**.
 Travel through Luzon, Visayas and Mindanao, help the people of each place, collect lost items, and answer the Knowledge Challenges.
 
-Made as a capstone project by the LuzViMinda Team, BSIT 4-A, College of Communication and Information Technology, University of Northern Philippines (2026).
+Made as a capstone project by the LuzViMinda Quest Team, BSIT 4-A, College of Communication and Information Technology, University of Northern Philippines (2026).
 
 ## Download
 
